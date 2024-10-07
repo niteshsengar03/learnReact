@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="Main jargon of REACT" unique_id="2" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1728246430" ts_lastsave="1728246904">
+    <rich_text>STATE
+Represent dynamic things in your app (thing that changes)
+
+COMPONENT 
+how to DOM is rendered given a state,reusable 
+
+
+ex- button is a component that takes the count(Current Count) as an input and is suppossed to render 
+ 
+
+ReRender</rich_text>
+    <encoded_png char_offset="227" justification="left" link="" sha256sum="db1bf4031f69aa8c965ca537347d74d8551c08ffd4ecb1880fba7131459552d9"/>
+  </node>
+</cherrytree>
