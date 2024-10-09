@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="deppendence array" unique_id="11" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1728486107" ts_lastsave="1728486662">
+    <rich_text>if [] is empty that logic will run for the first time
+when that perticular comp is mounted
+and return function(){} will run when the comp is unmounted
+like this-&gt;
+
+
+but when you write a state variable inside that array
+then whatever logic is written in </rich_text>
+    <rich_text link="node 4">useEffect</rich_text>
+    <rich_text> will
+run again again when props.count changes
+like this-&gt;
+
+now the question is when i'm using 
+return function(){} in this secound </rich_text>
+    <rich_text link="node 4">useEffect</rich_text>
+    <rich_text> what will run
+
+
+first time "count has chn</rich_text>
+    <encoded_png char_offset="163" justification="left" link="" sha256sum="68aeced9d90973cbc7cf6af4aa08168e9d05b406e8ab466e28740d942a72e786"/>
+    <encoded_png char_offset="322" justification="left" link="" sha256sum="341d7def33959d06a00fefca80b7394ee5ffc25cdf8ec326dcc235e9ad55083e"/>
+    <encoded_png char_offset="420" justification="left" link="" sha256sum="7e3f3d6d4f311e4f42d9d423079f6af88db3fbcd989b6e7fc8239ced23b74289"/>
+  </node>
+</cherrytree>

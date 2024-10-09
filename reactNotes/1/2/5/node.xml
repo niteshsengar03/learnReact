@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="how to use setCount in useEffect" unique_id="5" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1728372056" ts_lastsave="1728486001">
+    <rich_text>normally we use setCount(count+1)
+but in </rich_text>
+    <rich_text link="node 4">useEffect</rich_text>
+    <rich_text> when we want to use setCount we use it like 
+setCount(function(count){ return count+1})
+we are doing like this do get the latest value of count 
+
+
+secound Eample
+
+can you see inthis example 
+when we are using 
+setCounterIsVissible outside </rich_text>
+    <rich_text link="node 4">useEffect</rich_text>
+    <rich_text>
+you can write it normally
+
+but when you use it inside </rich_text>
+    <rich_text link="node 4">useEffect</rich_text>
+    <rich_text>
+you need to do
+setCounterIsVissible(function(vissible){
+									!vissible;
+									}</rich_text>
+    <encoded_png char_offset="213" justification="left" link="" sha256sum="52e2d261a886a4bf1406fe9847f1e216ce7aadc1e5c3ec988b408ac9735981b2"/>
+  </node>
+</cherrytree>

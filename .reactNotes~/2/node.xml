@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cherrytree>
-  <node name="Main jargon of REACT" unique_id="2" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1728246430" ts_lastsave="1728247065">
+  <node name="Main jargon of REACT" unique_id="2" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1728246430" ts_lastsave="1728372056">
     <rich_text>STATE
 Represent dynamic things in your app (thing that changes)
 
@@ -22,8 +22,30 @@ ReRender
     <rich_text justification="left"></rich_text>
     <rich_text>
 
+
+
+--&gt;Never do dom manipulation in react
+
+
+
+const [count,setcount] = useState(0);
+
+how can you change the count or setcount becasuse it is constant 
+but no array is const internal element are let
+i'll explain
 </rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text>
+it will throw error
+but when you do
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text>
+array changed from 1,3 to 5,10
+so you can change the internall elements of array</rich_text>
     <encoded_png char_offset="227" justification="left" link="" sha256sum="db1bf4031f69aa8c965ca537347d74d8551c08ffd4ecb1880fba7131459552d9"/>
-    <encoded_png char_offset="244" justification="left" link="" sha256sum="81eb0bdc9b07b1152023f7fffabf5ecc765692309f5426ba119935412b2d753c"/>
+    <encoded_png char_offset="244" justification="left" link="" sha256sum="e8681d410edd15eb2d896fd8cad75480cdb2f663a6e566ffaeb232e0fbe3552f"/>
+    <encoded_png char_offset="455" justification="left" link="" sha256sum="f9e681db67e6ab434492118672eecbaec412499f4d0c92064f2b57f4dc510190"/>
+    <encoded_png char_offset="493" justification="left" link="" sha256sum="14d02fed5b897c3291561da293b9aa698dd23c1ff47105d1b32fce92771de743"/>
   </node>
 </cherrytree>

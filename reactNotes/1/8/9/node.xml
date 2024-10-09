@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="don't want to unmount it just hide" unique_id="9" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1728375582" ts_lastsave="1728375584">
+    <rich_text>
+Counter comp will not unmount it will just hide</rich_text>
+    <encoded_png char_offset="0" justification="left" link="" sha256sum="088e600a040803e1b24c634fed41631b699c56b0f8d17217e488b202aad59bfa"/>
+  </node>
+</cherrytree>

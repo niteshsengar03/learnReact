@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="arrow function" unique_id="7" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1728374175" ts_lastsave="1728374316">
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#dcdcaa">setInterval</rich_text>
+    <rich_text foreground="#cccccc">(</rich_text>
+    <rich_text foreground="#569cd6">function</rich_text>
+    <rich_text foreground="#cccccc">() {</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cccccc">  </rich_text>
+    <rich_text foreground="#dcdcaa">setCounterVissible</rich_text>
+    <rich_text foreground="#cccccc">(</rich_text>
+    <rich_text foreground="#569cd6">function</rich_text>
+    <rich_text foreground="#cccccc">(</rich_text>
+    <rich_text foreground="#9cdcfe">c</rich_text>
+    <rich_text foreground="#cccccc">) {</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cccccc">    </rich_text>
+    <rich_text foreground="#c586c0">return</rich_text>
+    <rich_text foreground="#cccccc"> </rich_text>
+    <rich_text foreground="#d4d4d4">!</rich_text>
+    <rich_text foreground="#9cdcfe">c</rich_text>
+    <rich_text foreground="#cccccc">;</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cccccc">  });</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cccccc">}, </rich_text>
+    <rich_text foreground="#b5cea8">5000</rich_text>
+    <rich_text foreground="#cccccc">);</rich_text>
+    <rich_text>
+
+</rich_text>
+    <rich_text foreground="#dcdcaa">setInterval</rich_text>
+    <rich_text foreground="#cccccc">(</rich_text>
+    <rich_text foreground="#569cd6">function</rich_text>
+    <rich_text foreground="#cccccc">() {</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cccccc">  </rich_text>
+    <rich_text foreground="#dcdcaa">setCounterVissible</rich_text>
+    <rich_text foreground="#cccccc">(</rich_text>
+    <rich_text foreground="#9cdcfe">c</rich_text>
+    <rich_text foreground="#cccccc"> </rich_text>
+    <rich_text foreground="#569cd6">=&gt;</rich_text>
+    <rich_text foreground="#cccccc"> </rich_text>
+    <rich_text foreground="#d4d4d4">!</rich_text>
+    <rich_text foreground="#9cdcfe">c</rich_text>
+    <rich_text foreground="#cccccc">);</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cccccc">}, </rich_text>
+    <rich_text foreground="#b5cea8">5000</rich_text>
+    <rich_text foreground="#cccccc">);</rich_text>
+    <rich_text>
+
+if it is one line you don't need to write return statement</rich_text>
+  </node>
+</cherrytree>

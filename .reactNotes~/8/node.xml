@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="app is unmounted stop the clock" unique_id="8" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1728375172" ts_lastsave="1728375733">
+    <rich_text foreground="#569cd6">function</rich_text>
+    <rich_text foreground="#cccccc"> </rich_text>
+    <rich_text foreground="#dcdcaa">Counter</rich_text>
+    <rich_text foreground="#cccccc">() {</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cccccc">  </rich_text>
+    <rich_text foreground="#569cd6">const</rich_text>
+    <rich_text foreground="#cccccc"> [</rich_text>
+    <rich_text foreground="#4fc1ff">counter</rich_text>
+    <rich_text foreground="#cccccc">, </rich_text>
+    <rich_text foreground="#dcdcaa">setCounter</rich_text>
+    <rich_text foreground="#cccccc">] </rich_text>
+    <rich_text foreground="#d4d4d4">=</rich_text>
+    <rich_text foreground="#cccccc"> </rich_text>
+    <rich_text foreground="#dcdcaa">useState</rich_text>
+    <rich_text foreground="#cccccc">(</rich_text>
+    <rich_text foreground="#b5cea8">0</rich_text>
+    <rich_text foreground="#cccccc">);</rich_text>
+    <rich_text>
+
+</rich_text>
+    <rich_text foreground="#cccccc">  </rich_text>
+    <rich_text foreground="#dcdcaa">useEffect</rich_text>
+    <rich_text foreground="#cccccc">(</rich_text>
+    <rich_text foreground="#569cd6">function</rich_text>
+    <rich_text foreground="#cccccc">(){</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cccccc">    </rich_text>
+    <rich_text foreground="#9cdcfe">console</rich_text>
+    <rich_text foreground="#d4d4d4">.</rich_text>
+    <rich_text foreground="#dcdcaa">log</rich_text>
+    <rich_text foreground="#cccccc">(</rich_text>
+    <rich_text foreground="#ce9178">"this logic runs on mount"</rich_text>
+    <rich_text foreground="#cccccc">);</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cccccc">    </rich_text>
+    <rich_text foreground="#569cd6">let</rich_text>
+    <rich_text foreground="#cccccc"> </rich_text>
+    <rich_text foreground="#9cdcfe">clock</rich_text>
+    <rich_text foreground="#cccccc"> </rich_text>
+    <rich_text foreground="#d4d4d4">=</rich_text>
+    <rich_text foreground="#cccccc"> </rich_text>
+    <rich_text foreground="#dcdcaa">setInterval</rich_text>
+    <rich_text foreground="#cccccc">(</rich_text>
+    <rich_text foreground="#569cd6">function</rich_text>
+    <rich_text foreground="#cccccc">(){</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cccccc">      </rich_text>
+    <rich_text foreground="#9cdcfe">console</rich_text>
+    <rich_text foreground="#d4d4d4">.</rich_text>
+    <rich_text foreground="#dcdcaa">log</rich_text>
+    <rich_text foreground="#cccccc">(</rich_text>
+    <rich_text foreground="#ce9178">"from inside the callback"</rich_text>
+    <rich_text foreground="#cccccc">);</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cccccc">      </rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cccccc">      </rich_text>
+    <rich_text foreground="#dcdcaa">setCounter</rich_text>
+    <rich_text foreground="#cccccc">(</rich_text>
+    <rich_text foreground="#569cd6">function</rich_text>
+    <rich_text foreground="#cccccc">(</rich_text>
+    <rich_text foreground="#9cdcfe">counter</rich_text>
+    <rich_text foreground="#cccccc">){</rich_text>
+    <rich_text foreground="#c586c0">return</rich_text>
+    <rich_text foreground="#cccccc"> </rich_text>
+    <rich_text foreground="#9cdcfe">counter</rich_text>
+    <rich_text foreground="#d4d4d4">+</rich_text>
+    <rich_text foreground="#b5cea8">1</rich_text>
+    <rich_text foreground="#cccccc">;})</rich_text>
+    <rich_text foreground="#6a9955">// we are using this way because of dependeny array</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cccccc">    },</rich_text>
+    <rich_text foreground="#b5cea8">1000</rich_text>
+    <rich_text foreground="#cccccc">)</rich_text>
+    <rich_text>
+
+</rich_text>
+    <rich_text foreground="#cccccc">     </rich_text>
+    <rich_text foreground="#6a9955">// Cleanup function to stop the clock</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cccccc">    </rich_text>
+    <rich_text foreground="#c586c0">return</rich_text>
+    <rich_text foreground="#cccccc"> </rich_text>
+    <rich_text foreground="#569cd6">function</rich_text>
+    <rich_text foreground="#cccccc">(){</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cccccc">      </rich_text>
+    <rich_text foreground="#9cdcfe">console</rich_text>
+    <rich_text foreground="#d4d4d4">.</rich_text>
+    <rich_text foreground="#dcdcaa">log</rich_text>
+    <rich_text foreground="#cccccc">(</rich_text>
+    <rich_text foreground="#ce9178">"this logic runs on when this is unmounted in this case due to conditional rendering"</rich_text>
+    <rich_text foreground="#cccccc">);</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cccccc">      </rich_text>
+    <rich_text foreground="#dcdcaa">clearInterval</rich_text>
+    <rich_text foreground="#cccccc">(</rich_text>
+    <rich_text foreground="#9cdcfe">clock</rich_text>
+    <rich_text foreground="#cccccc">); </rich_text>
+    <rich_text foreground="#6a9955">// logic to stop the clock</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cccccc">    };</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cccccc">  },[])</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cccccc">  </rich_text>
+    <rich_text foreground="#c586c0">return</rich_text>
+    <rich_text foreground="#cccccc"> (</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cccccc">    </rich_text>
+    <rich_text foreground="#808080">&lt;&gt;</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cccccc">      </rich_text>
+    <rich_text foreground="#808080">&lt;</rich_text>
+    <rich_text foreground="#569cd6">h1</rich_text>
+    <rich_text foreground="#808080">&gt;</rich_text>
+    <rich_text foreground="#cccccc">Counter </rich_text>
+    <rich_text foreground="#569cd6">{</rich_text>
+    <rich_text foreground="#4fc1ff">counter</rich_text>
+    <rich_text foreground="#569cd6">}</rich_text>
+    <rich_text foreground="#808080">&lt;/</rich_text>
+    <rich_text foreground="#569cd6">h1</rich_text>
+    <rich_text foreground="#808080">&gt;</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cccccc">      </rich_text>
+    <rich_text foreground="#808080">&lt;</rich_text>
+    <rich_text foreground="#569cd6">button</rich_text>
+    <rich_text foreground="#cccccc"> </rich_text>
+    <rich_text foreground="#9cdcfe">onClick</rich_text>
+    <rich_text foreground="#d4d4d4">=</rich_text>
+    <rich_text foreground="#569cd6">{</rich_text>
+    <rich_text foreground="#dcdcaa">counterIncrease</rich_text>
+    <rich_text foreground="#569cd6">}</rich_text>
+    <rich_text foreground="#808080">&gt;</rich_text>
+    <rich_text foreground="#cccccc">Increase</rich_text>
+    <rich_text foreground="#808080">&lt;/</rich_text>
+    <rich_text foreground="#569cd6">button</rich_text>
+    <rich_text foreground="#808080">&gt;</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cccccc">    </rich_text>
+    <rich_text foreground="#808080">&lt;/&gt;</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cccccc">  );</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cccccc">}</rich_text>
+    <rich_text>
+
+
+
+here setInterval clock will stop running  when this component called Counter is unmounted</rich_text>
+  </node>
+</cherrytree>

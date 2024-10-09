@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="how to use setCount in useEffect" unique_id="5" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1728372056" ts_lastsave="1728376229">
+    <rich_text>normally we use setCount(count+1)
+but in </rich_text>
+    <rich_text link="node 4">useEffect</rich_text>
+    <rich_text> when we want to use setCount we use it like 
+setCount(function(count){ return count+1})
+we are doing like this do get the latest value of count </rich_text>
+  </node>
+</cherrytree>

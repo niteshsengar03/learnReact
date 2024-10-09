@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="make it simple" unique_id="10" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1728484431" ts_lastsave="1728484472">
+    <rich_text>
+whenever you want to run the logic inside
+</rich_text>
+    <rich_text link="node 4">useEffect</rich_text>
+    <rich_text> for the first time when the
+function mou</rich_text>
+    <encoded_png char_offset="0" justification="left" link="" sha256sum="9cbbb5fb02cc53e193089f068a1d72c4b5568ef962a3f20467d93607e7295c33"/>
+  </node>
+</cherrytree>

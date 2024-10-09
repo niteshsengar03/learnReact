@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="useEffect" unique_id="4" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1728365414" ts_lastsave="1728375157">
+    <rich_text foreground="#569cd6">function</rich_text>
+    <rich_text foreground="#cccccc"> </rich_text>
+    <rich_text foreground="#dcdcaa">App</rich_text>
+    <rich_text foreground="#cccccc">() {</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cccccc">  </rich_text>
+    <rich_text foreground="#c586c0">return</rich_text>
+    <rich_text foreground="#cccccc"> (</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cccccc">    </rich_text>
+    <rich_text foreground="#808080">&lt;&gt;</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cccccc">      </rich_text>
+    <rich_text foreground="#808080">&lt;</rich_text>
+    <rich_text foreground="#569cd6">h1</rich_text>
+    <rich_text foreground="#808080">&gt;</rich_text>
+    <rich_text foreground="#cccccc">Counting</rich_text>
+    <rich_text foreground="#808080">&lt;/</rich_text>
+    <rich_text foreground="#569cd6">h1</rich_text>
+    <rich_text foreground="#808080">&gt;</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cccccc">      </rich_text>
+    <rich_text foreground="#808080">&lt;</rich_text>
+    <rich_text foreground="#4ec9b0">Counter</rich_text>
+    <rich_text foreground="#808080">&gt;&lt;/</rich_text>
+    <rich_text foreground="#4ec9b0">Counter</rich_text>
+    <rich_text foreground="#808080">&gt;</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cccccc">    </rich_text>
+    <rich_text foreground="#808080">&lt;/&gt;</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cccccc">  );</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cccccc">}</rich_text>
+    <rich_text>
+
+</rich_text>
+    <rich_text foreground="#569cd6">function</rich_text>
+    <rich_text foreground="#cccccc"> </rich_text>
+    <rich_text foreground="#dcdcaa">Counter</rich_text>
+    <rich_text foreground="#cccccc">() {</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cccccc">  </rich_text>
+    <rich_text foreground="#569cd6">const</rich_text>
+    <rich_text foreground="#cccccc"> [</rich_text>
+    <rich_text foreground="#4fc1ff">counter</rich_text>
+    <rich_text foreground="#cccccc">, </rich_text>
+    <rich_text foreground="#dcdcaa">setCounter</rich_text>
+    <rich_text foreground="#cccccc">] </rich_text>
+    <rich_text foreground="#d4d4d4">=</rich_text>
+    <rich_text foreground="#cccccc"> </rich_text>
+    <rich_text foreground="#dcdcaa">useState</rich_text>
+    <rich_text foreground="#cccccc">(</rich_text>
+    <rich_text foreground="#b5cea8">0</rich_text>
+    <rich_text foreground="#cccccc">);</rich_text>
+    <rich_text>
+
+</rich_text>
+    <rich_text foreground="#cccccc">  </rich_text>
+    <rich_text foreground="#9cdcfe">console</rich_text>
+    <rich_text foreground="#d4d4d4">.</rich_text>
+    <rich_text foreground="#dcdcaa">log</rich_text>
+    <rich_text foreground="#cccccc">(</rich_text>
+    <rich_text foreground="#ce9178">"re-render happens"</rich_text>
+    <rich_text foreground="#cccccc">);</rich_text>
+    <rich_text>
+
+
+</rich_text>
+    <rich_text foreground="#cccccc">  </rich_text>
+    <rich_text foreground="#6a9955">// We want setInterval to call once then it will start a clock and make sure that setCounter is called every</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cccccc">  </rich_text>
+    <rich_text foreground="#6a9955">// 1 secound if we don't use useEffect every time Counter function is rerenderd setInterval will also call</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cccccc">  </rich_text>
+    <rich_text foreground="#6a9955">// which again and again start a new cycle. for this we are using useEffect</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cccccc">  </rich_text>
+    <rich_text foreground="#dcdcaa">useEffect</rich_text>
+    <rich_text foreground="#cccccc">(() </rich_text>
+    <rich_text foreground="#569cd6">=&gt;</rich_text>
+    <rich_text foreground="#cccccc"> {</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cccccc">    </rich_text>
+    <rich_text foreground="#9cdcfe">console</rich_text>
+    <rich_text foreground="#d4d4d4">.</rich_text>
+    <rich_text foreground="#dcdcaa">log</rich_text>
+    <rich_text foreground="#cccccc">(</rich_text>
+    <rich_text foreground="#ce9178">"Counter function is called for the first time this comp mounted"</rich_text>
+    <rich_text foreground="#cccccc">);</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cccccc">    </rich_text>
+    <rich_text foreground="#dcdcaa">setInterval</rich_text>
+    <rich_text foreground="#cccccc">(() </rich_text>
+    <rich_text foreground="#569cd6">=&gt;</rich_text>
+    <rich_text foreground="#cccccc"> {</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cccccc">      </rich_text>
+    <rich_text foreground="#dcdcaa">setCounter</rich_text>
+    <rich_text foreground="#cccccc">(</rich_text>
+    <rich_text foreground="#569cd6">function</rich_text>
+    <rich_text foreground="#cccccc">(</rich_text>
+    <rich_text foreground="#9cdcfe">counter</rich_text>
+    <rich_text foreground="#cccccc">){</rich_text>
+    <rich_text foreground="#c586c0">return</rich_text>
+    <rich_text foreground="#cccccc"> </rich_text>
+    <rich_text foreground="#9cdcfe">counter</rich_text>
+    <rich_text foreground="#d4d4d4">+</rich_text>
+    <rich_text foreground="#b5cea8">1</rich_text>
+    <rich_text foreground="#cccccc">});</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cccccc">    }, </rich_text>
+    <rich_text foreground="#b5cea8">1000</rich_text>
+    <rich_text foreground="#cccccc">);</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cccccc">  },[]);</rich_text>
+    <rich_text>
+
+</rich_text>
+    <rich_text foreground="#c586c0">return</rich_text>
+    <rich_text foreground="#cccccc"> (</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cccccc">    </rich_text>
+    <rich_text foreground="#808080">&lt;&gt;</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cccccc">      </rich_text>
+    <rich_text foreground="#808080">&lt;</rich_text>
+    <rich_text foreground="#569cd6">h1</rich_text>
+    <rich_text foreground="#808080">&gt;</rich_text>
+    <rich_text foreground="#cccccc">Counter </rich_text>
+    <rich_text foreground="#569cd6">{</rich_text>
+    <rich_text foreground="#4fc1ff">counter</rich_text>
+    <rich_text foreground="#569cd6">}</rich_text>
+    <rich_text foreground="#808080">&lt;/</rich_text>
+    <rich_text foreground="#569cd6">h1</rich_text>
+    <rich_text foreground="#808080">&gt;</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cccccc">    </rich_text>
+    <rich_text foreground="#808080">&lt;/&gt;</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cccccc">  );</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cccccc">}</rich_text>
+    <rich_text>
+
+
+
+
+
+
+</rich_text>
+  </node>
+</cherrytree>

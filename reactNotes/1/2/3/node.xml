@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cherrytree>
-  <node name="Counter app in react" unique_id="3" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1728247601" ts_lastsave="1728247622">
+  <node name="Counter app in react" unique_id="3" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1728247601" ts_lastsave="1728312265">
     <rich_text>Counter without React 
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text>
 
+in react you never need to do DOM manipulation
 
 
 
 </rich_text>
     <encoded_png char_offset="23" justification="left" link="" sha256sum="31b74a4e955765ff6ef8fc9de3cabe143086b677fe4b415549117b12f4a77bea"/>
+    <encoded_png char_offset="73" justification="left" link="" sha256sum="c24f55956d76c122268fb8c6938c02c7f6d3661281a9b37f2d5ca5a580bf98c6"/>
   </node>
 </cherrytree>
