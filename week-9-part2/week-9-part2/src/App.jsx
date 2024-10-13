@@ -55,6 +55,8 @@ function App(){
 
   return (
     <>
+      <h1>hii there</h1>
+      <br/>
       <button onClick={makeVissible}>vissible</button>
       {isVissible ? <Counter count={count} setCount={setCount}/>:<h1>Clock is unmounted for 5 sec</h1>}
     </>

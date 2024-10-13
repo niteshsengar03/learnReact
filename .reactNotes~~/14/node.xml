@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="loading conditinal" unique_id="14" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1728798312" ts_lastsave="1728798321">
+    <rich_text foreground="#c586c0">import</rich_text>
+    <rich_text foreground="#cccccc"> { </rich_text>
+    <rich_text foreground="#9cdcfe">useEffect</rich_text>
+    <rich_text foreground="#cccccc">, </rich_text>
+    <rich_text foreground="#9cdcfe">useState</rich_text>
+    <rich_text foreground="#cccccc"> } </rich_text>
+    <rich_text foreground="#c586c0">from</rich_text>
+    <rich_text foreground="#cccccc"> </rich_text>
+    <rich_text foreground="#ce9178">"react"</rich_text>
+    <rich_text foreground="#cccccc">;</rich_text>
+    <rich_text>
+
+
+</rich_text>
+    <rich_text foreground="#569cd6">function</rich_text>
+    <rich_text foreground="#cccccc"> </rich_text>
+    <rich_text foreground="#dcdcaa">UseEffect</rich_text>
+    <rich_text foreground="#cccccc">(){</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cccccc">   </rich_text>
+    <rich_text foreground="#569cd6">const</rich_text>
+    <rich_text foreground="#cccccc"> [</rich_text>
+    <rich_text foreground="#4fc1ff">currentTab</rich_text>
+    <rich_text foreground="#cccccc">,</rich_text>
+    <rich_text foreground="#dcdcaa">setCurrentTab</rich_text>
+    <rich_text foreground="#cccccc">]</rich_text>
+    <rich_text foreground="#d4d4d4">=</rich_text>
+    <rich_text foreground="#dcdcaa">useState</rich_text>
+    <rich_text foreground="#cccccc">(</rich_text>
+    <rich_text foreground="#b5cea8">1</rich_text>
+    <rich_text foreground="#cccccc">);</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cccccc">   </rich_text>
+    <rich_text foreground="#569cd6">const</rich_text>
+    <rich_text foreground="#cccccc">[</rich_text>
+    <rich_text foreground="#4fc1ff">todoData</rich_text>
+    <rich_text foreground="#cccccc">,</rich_text>
+    <rich_text foreground="#dcdcaa">setTodoData</rich_text>
+    <rich_text foreground="#cccccc">] </rich_text>
+    <rich_text foreground="#d4d4d4">=</rich_text>
+    <rich_text foreground="#cccccc"> </rich_text>
+    <rich_text foreground="#dcdcaa">useState</rich_text>
+    <rich_text foreground="#cccccc">({});</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cccccc">   </rich_text>
+    <rich_text foreground="#569cd6">const</rich_text>
+    <rich_text foreground="#cccccc">[</rich_text>
+    <rich_text foreground="#4fc1ff">loading</rich_text>
+    <rich_text foreground="#cccccc">,</rich_text>
+    <rich_text foreground="#dcdcaa">setLoading</rich_text>
+    <rich_text foreground="#cccccc">] </rich_text>
+    <rich_text foreground="#d4d4d4">=</rich_text>
+    <rich_text foreground="#cccccc"> </rich_text>
+    <rich_text foreground="#dcdcaa">useState</rich_text>
+    <rich_text foreground="#cccccc">(</rich_text>
+    <rich_text foreground="#569cd6">true</rich_text>
+    <rich_text foreground="#cccccc">);</rich_text>
+    <rich_text>
+
+</rich_text>
+    <rich_text foreground="#cccccc">   </rich_text>
+    <rich_text foreground="#dcdcaa">useEffect</rich_text>
+    <rich_text foreground="#cccccc">(()</rich_text>
+    <rich_text foreground="#569cd6">=&gt;</rich_text>
+    <rich_text foreground="#cccccc">{</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cccccc">    </rich_text>
+    <rich_text foreground="#dcdcaa">setLoading</rich_text>
+    <rich_text foreground="#cccccc">(</rich_text>
+    <rich_text foreground="#569cd6">true</rich_text>
+    <rich_text foreground="#cccccc">);</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cccccc">    </rich_text>
+    <rich_text foreground="#dcdcaa">fetch</rich_text>
+    <rich_text foreground="#cccccc">(</rich_text>
+    <rich_text foreground="#ce9178">"https://jsonplaceholder.typicode.com/todos/"</rich_text>
+    <rich_text foreground="#d4d4d4">+</rich_text>
+    <rich_text foreground="#4fc1ff">currentTab</rich_text>
+    <rich_text foreground="#cccccc">)</rich_text>
+    <rich_text foreground="#d4d4d4">.</rich_text>
+    <rich_text foreground="#dcdcaa">then</rich_text>
+    <rich_text foreground="#cccccc">((</rich_text>
+    <rich_text foreground="#9cdcfe">response</rich_text>
+    <rich_text foreground="#cccccc">)</rich_text>
+    <rich_text foreground="#569cd6">=&gt;</rich_text>
+    <rich_text foreground="#cccccc">{</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#9cdcfe">        response</rich_text>
+    <rich_text foreground="#d4d4d4">.</rich_text>
+    <rich_text foreground="#dcdcaa">json</rich_text>
+    <rich_text foreground="#cccccc">()</rich_text>
+    <rich_text foreground="#d4d4d4">.</rich_text>
+    <rich_text foreground="#dcdcaa">then</rich_text>
+    <rich_text foreground="#cccccc">((</rich_text>
+    <rich_text foreground="#9cdcfe">data</rich_text>
+    <rich_text foreground="#cccccc">)</rich_text>
+    <rich_text foreground="#569cd6">=&gt;</rich_text>
+    <rich_text foreground="#cccccc">{</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cccccc">            </rich_text>
+    <rich_text foreground="#dcdcaa">setTodoData</rich_text>
+    <rich_text foreground="#cccccc">(</rich_text>
+    <rich_text foreground="#9cdcfe">data</rich_text>
+    <rich_text foreground="#cccccc">);</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cccccc">             </rich_text>
+    <rich_text foreground="#c586c0">for</rich_text>
+    <rich_text foreground="#cccccc">(</rich_text>
+    <rich_text foreground="#569cd6">let</rich_text>
+    <rich_text foreground="#cccccc"> </rich_text>
+    <rich_text foreground="#9cdcfe">i</rich_text>
+    <rich_text foreground="#d4d4d4">=</rich_text>
+    <rich_text foreground="#b5cea8">0</rich_text>
+    <rich_text foreground="#cccccc">;</rich_text>
+    <rich_text foreground="#9cdcfe">i</rich_text>
+    <rich_text foreground="#d4d4d4">&lt;</rich_text>
+    <rich_text foreground="#b5cea8">10000</rich_text>
+    <rich_text foreground="#cccccc">;</rich_text>
+    <rich_text foreground="#9cdcfe">i</rich_text>
+    <rich_text foreground="#d4d4d4">++</rich_text>
+    <rich_text foreground="#cccccc">){</rich_text>
+    <rich_text foreground="#9cdcfe">console</rich_text>
+    <rich_text foreground="#d4d4d4">.</rich_text>
+    <rich_text foreground="#dcdcaa">log</rich_text>
+    <rich_text foreground="#cccccc">(</rich_text>
+    <rich_text foreground="#ce9178">"hi"</rich_text>
+    <rich_text foreground="#cccccc">)}</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cccccc">            </rich_text>
+    <rich_text foreground="#dcdcaa">setLoading</rich_text>
+    <rich_text foreground="#cccccc">(</rich_text>
+    <rich_text foreground="#569cd6">false</rich_text>
+    <rich_text foreground="#cccccc">);</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cccccc">        })</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cccccc">    })</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cccccc">    </rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cccccc">   },[</rich_text>
+    <rich_text foreground="#4fc1ff">currentTab</rich_text>
+    <rich_text foreground="#cccccc">]) </rich_text>
+    <rich_text>
+
+</rich_text>
+    <rich_text foreground="#cccccc">    </rich_text>
+    <rich_text foreground="#c586c0">return</rich_text>
+    <rich_text foreground="#cccccc"> </rich_text>
+    <rich_text foreground="#808080">&lt;</rich_text>
+    <rich_text foreground="#569cd6">div</rich_text>
+    <rich_text foreground="#808080">&gt;</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cccccc">        </rich_text>
+    <rich_text foreground="#808080">&lt;</rich_text>
+    <rich_text foreground="#569cd6">button</rich_text>
+    <rich_text foreground="#cccccc"> </rich_text>
+    <rich_text foreground="#9cdcfe">onClick</rich_text>
+    <rich_text foreground="#d4d4d4">=</rich_text>
+    <rich_text foreground="#569cd6">{</rich_text>
+    <rich_text foreground="#d4d4d4">() </rich_text>
+    <rich_text foreground="#569cd6">=&gt;</rich_text>
+    <rich_text foreground="#d4d4d4"> </rich_text>
+    <rich_text foreground="#dcdcaa">setCurrentTab</rich_text>
+    <rich_text foreground="#d4d4d4">(</rich_text>
+    <rich_text foreground="#b5cea8">1</rich_text>
+    <rich_text foreground="#d4d4d4">)</rich_text>
+    <rich_text foreground="#569cd6">}</rich_text>
+    <rich_text foreground="#cccccc"> </rich_text>
+    <rich_text foreground="#9cdcfe">style</rich_text>
+    <rich_text foreground="#d4d4d4">=</rich_text>
+    <rich_text foreground="#569cd6">{</rich_text>
+    <rich_text foreground="#d4d4d4">{</rich_text>
+    <rich_text foreground="#9cdcfe">color</rich_text>
+    <rich_text foreground="#d4d4d4">:</rich_text>
+    <rich_text foreground="#4fc1ff">currentTab</rich_text>
+    <rich_text foreground="#d4d4d4">==</rich_text>
+    <rich_text foreground="#b5cea8">1</rich_text>
+    <rich_text foreground="#d4d4d4">?</rich_text>
+    <rich_text foreground="#ce9178">"red"</rich_text>
+    <rich_text foreground="#d4d4d4">:</rich_text>
+    <rich_text foreground="#ce9178">"black"</rich_text>
+    <rich_text foreground="#d4d4d4">}</rich_text>
+    <rich_text foreground="#569cd6">}</rich_text>
+    <rich_text foreground="#808080">&gt;</rich_text>
+    <rich_text foreground="#cccccc">Todo 1</rich_text>
+    <rich_text foreground="#808080">&lt;/</rich_text>
+    <rich_text foreground="#569cd6">button</rich_text>
+    <rich_text foreground="#808080">&gt;</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cccccc">        </rich_text>
+    <rich_text foreground="#808080">&lt;</rich_text>
+    <rich_text foreground="#569cd6">button</rich_text>
+    <rich_text foreground="#cccccc"> </rich_text>
+    <rich_text foreground="#9cdcfe">onClick</rich_text>
+    <rich_text foreground="#d4d4d4">=</rich_text>
+    <rich_text foreground="#569cd6">{</rich_text>
+    <rich_text foreground="#d4d4d4">() </rich_text>
+    <rich_text foreground="#569cd6">=&gt;</rich_text>
+    <rich_text foreground="#d4d4d4"> </rich_text>
+    <rich_text foreground="#dcdcaa">setCurrentTab</rich_text>
+    <rich_text foreground="#d4d4d4">(</rich_text>
+    <rich_text foreground="#b5cea8">2</rich_text>
+    <rich_text foreground="#d4d4d4">)</rich_text>
+    <rich_text foreground="#569cd6">}</rich_text>
+    <rich_text foreground="#cccccc"> </rich_text>
+    <rich_text foreground="#9cdcfe">style</rich_text>
+    <rich_text foreground="#d4d4d4">=</rich_text>
+    <rich_text foreground="#569cd6">{</rich_text>
+    <rich_text foreground="#d4d4d4">{</rich_text>
+    <rich_text foreground="#9cdcfe">color</rich_text>
+    <rich_text foreground="#d4d4d4">:</rich_text>
+    <rich_text foreground="#4fc1ff">currentTab</rich_text>
+    <rich_text foreground="#d4d4d4">==</rich_text>
+    <rich_text foreground="#b5cea8">2</rich_text>
+    <rich_text foreground="#d4d4d4">?</rich_text>
+    <rich_text foreground="#ce9178">"red"</rich_text>
+    <rich_text foreground="#d4d4d4">:</rich_text>
+    <rich_text foreground="#ce9178">"black"</rich_text>
+    <rich_text foreground="#d4d4d4">}</rich_text>
+    <rich_text foreground="#569cd6">}</rich_text>
+    <rich_text foreground="#808080">&gt;</rich_text>
+    <rich_text foreground="#cccccc">Todo 2</rich_text>
+    <rich_text foreground="#808080">&lt;/</rich_text>
+    <rich_text foreground="#569cd6">button</rich_text>
+    <rich_text foreground="#808080">&gt;</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cccccc">        </rich_text>
+    <rich_text foreground="#808080">&lt;</rich_text>
+    <rich_text foreground="#569cd6">button</rich_text>
+    <rich_text foreground="#cccccc"> </rich_text>
+    <rich_text foreground="#9cdcfe">onClick</rich_text>
+    <rich_text foreground="#d4d4d4">=</rich_text>
+    <rich_text foreground="#569cd6">{</rich_text>
+    <rich_text foreground="#d4d4d4">() </rich_text>
+    <rich_text foreground="#569cd6">=&gt;</rich_text>
+    <rich_text foreground="#d4d4d4"> </rich_text>
+    <rich_text foreground="#dcdcaa">setCurrentTab</rich_text>
+    <rich_text foreground="#d4d4d4">(</rich_text>
+    <rich_text foreground="#b5cea8">3</rich_text>
+    <rich_text foreground="#d4d4d4">)</rich_text>
+    <rich_text foreground="#569cd6">}</rich_text>
+    <rich_text foreground="#cccccc"> </rich_text>
+    <rich_text foreground="#9cdcfe">style</rich_text>
+    <rich_text foreground="#d4d4d4">=</rich_text>
+    <rich_text foreground="#569cd6">{</rich_text>
+    <rich_text foreground="#d4d4d4">{</rich_text>
+    <rich_text foreground="#9cdcfe">color</rich_text>
+    <rich_text foreground="#d4d4d4">:</rich_text>
+    <rich_text foreground="#4fc1ff">currentTab</rich_text>
+    <rich_text foreground="#d4d4d4">==</rich_text>
+    <rich_text foreground="#b5cea8">3</rich_text>
+    <rich_text foreground="#d4d4d4">?</rich_text>
+    <rich_text foreground="#ce9178">"red"</rich_text>
+    <rich_text foreground="#d4d4d4">:</rich_text>
+    <rich_text foreground="#ce9178">"black"</rich_text>
+    <rich_text foreground="#d4d4d4">}</rich_text>
+    <rich_text foreground="#569cd6">}</rich_text>
+    <rich_text foreground="#808080">&gt;</rich_text>
+    <rich_text foreground="#cccccc">Todo 3</rich_text>
+    <rich_text foreground="#808080">&lt;/</rich_text>
+    <rich_text foreground="#569cd6">button</rich_text>
+    <rich_text foreground="#808080">&gt;</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cccccc">        </rich_text>
+    <rich_text foreground="#808080">&lt;</rich_text>
+    <rich_text foreground="#569cd6">button</rich_text>
+    <rich_text foreground="#cccccc"> </rich_text>
+    <rich_text foreground="#9cdcfe">onClick</rich_text>
+    <rich_text foreground="#d4d4d4">=</rich_text>
+    <rich_text foreground="#569cd6">{</rich_text>
+    <rich_text foreground="#d4d4d4">() </rich_text>
+    <rich_text foreground="#569cd6">=&gt;</rich_text>
+    <rich_text foreground="#d4d4d4"> </rich_text>
+    <rich_text foreground="#dcdcaa">setCurrentTab</rich_text>
+    <rich_text foreground="#d4d4d4">(</rich_text>
+    <rich_text foreground="#b5cea8">4</rich_text>
+    <rich_text foreground="#d4d4d4">)</rich_text>
+    <rich_text foreground="#569cd6">}</rich_text>
+    <rich_text foreground="#cccccc"> </rich_text>
+    <rich_text foreground="#9cdcfe">style</rich_text>
+    <rich_text foreground="#cccccc"> </rich_text>
+    <rich_text foreground="#d4d4d4">=</rich_text>
+    <rich_text foreground="#569cd6">{</rich_text>
+    <rich_text foreground="#d4d4d4">{ </rich_text>
+    <rich_text foreground="#9cdcfe">color</rich_text>
+    <rich_text foreground="#d4d4d4">:</rich_text>
+    <rich_text foreground="#4fc1ff">currentTab</rich_text>
+    <rich_text foreground="#d4d4d4">==</rich_text>
+    <rich_text foreground="#b5cea8">4</rich_text>
+    <rich_text foreground="#d4d4d4">?</rich_text>
+    <rich_text foreground="#ce9178">"red"</rich_text>
+    <rich_text foreground="#d4d4d4">:</rich_text>
+    <rich_text foreground="#ce9178">"black"</rich_text>
+    <rich_text foreground="#d4d4d4">}</rich_text>
+    <rich_text foreground="#569cd6">}</rich_text>
+    <rich_text foreground="#808080">&gt;</rich_text>
+    <rich_text foreground="#cccccc">Todo 4</rich_text>
+    <rich_text foreground="#808080">&lt;/</rich_text>
+    <rich_text foreground="#569cd6">button</rich_text>
+    <rich_text foreground="#808080">&gt;</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cccccc">        </rich_text>
+    <rich_text foreground="#569cd6">{</rich_text>
+    <rich_text foreground="#4fc1ff">loading</rich_text>
+    <rich_text foreground="#d4d4d4">?</rich_text>
+    <rich_text foreground="#808080">&lt;</rich_text>
+    <rich_text foreground="#569cd6">h2</rich_text>
+    <rich_text foreground="#808080">&gt;</rich_text>
+    <rich_text foreground="#d4d4d4">Loading...</rich_text>
+    <rich_text foreground="#808080">&lt;/</rich_text>
+    <rich_text foreground="#569cd6">h2</rich_text>
+    <rich_text foreground="#808080">&gt;</rich_text>
+    <rich_text foreground="#d4d4d4">:</rich_text>
+    <rich_text foreground="#808080">&lt;</rich_text>
+    <rich_text foreground="#569cd6">h1</rich_text>
+    <rich_text foreground="#808080">&gt;</rich_text>
+    <rich_text foreground="#569cd6">{</rich_text>
+    <rich_text foreground="#4fc1ff">todoData</rich_text>
+    <rich_text foreground="#d4d4d4">.</rich_text>
+    <rich_text foreground="#9cdcfe">title</rich_text>
+    <rich_text foreground="#569cd6">}</rich_text>
+    <rich_text foreground="#808080">&lt;/</rich_text>
+    <rich_text foreground="#569cd6">h1</rich_text>
+    <rich_text foreground="#808080">&gt;</rich_text>
+    <rich_text foreground="#569cd6">}</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cccccc">    </rich_text>
+    <rich_text foreground="#808080">&lt;/</rich_text>
+    <rich_text foreground="#569cd6">div</rich_text>
+    <rich_text foreground="#808080">&gt;</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cccccc">    </rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cccccc">}</rich_text>
+    <rich_text>
+
+
+</rich_text>
+    <encoded_png char_offset="1082" justification="left" link="" sha256sum="10ce3a667e1109a6403b6202549bf06f99407aed474714d2db55bb7eb500735b"/>
+  </node>
+</cherrytree>

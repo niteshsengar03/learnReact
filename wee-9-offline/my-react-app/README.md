@@ -1,5 +1,15 @@
 # React + Vite
 
+
+two main  app are there
+in main.jsx uncomment app or useEffect to see anyof it
+
+
+
+
+
+
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:

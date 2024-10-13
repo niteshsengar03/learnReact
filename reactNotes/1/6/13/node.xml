@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="syle conditional rendering" unique_id="13" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1728796581" ts_lastsave="1728796621">
+    <rich_text foreground="#569cd6">function</rich_text>
+    <rich_text foreground="#cccccc"> </rich_text>
+    <rich_text foreground="#dcdcaa">UseEffect</rich_text>
+    <rich_text foreground="#cccccc">(){</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cccccc">   </rich_text>
+    <rich_text foreground="#569cd6">const</rich_text>
+    <rich_text foreground="#cccccc"> [</rich_text>
+    <rich_text foreground="#4fc1ff">currentTab</rich_text>
+    <rich_text foreground="#cccccc">,</rich_text>
+    <rich_text foreground="#dcdcaa">setCurrentTab</rich_text>
+    <rich_text foreground="#cccccc">]</rich_text>
+    <rich_text foreground="#d4d4d4">=</rich_text>
+    <rich_text foreground="#dcdcaa">useState</rich_text>
+    <rich_text foreground="#cccccc">(</rich_text>
+    <rich_text foreground="#b5cea8">1</rich_text>
+    <rich_text foreground="#cccccc">);</rich_text>
+    <rich_text>
+
+</rich_text>
+    <rich_text foreground="#cccccc">    </rich_text>
+    <rich_text foreground="#c586c0">return</rich_text>
+    <rich_text foreground="#cccccc"> </rich_text>
+    <rich_text foreground="#808080">&lt;</rich_text>
+    <rich_text foreground="#569cd6">div</rich_text>
+    <rich_text foreground="#808080">&gt;</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cccccc">        </rich_text>
+    <rich_text foreground="#808080">&lt;</rich_text>
+    <rich_text foreground="#569cd6">button</rich_text>
+    <rich_text foreground="#cccccc"> </rich_text>
+    <rich_text foreground="#9cdcfe">onClick</rich_text>
+    <rich_text foreground="#d4d4d4">=</rich_text>
+    <rich_text foreground="#569cd6">{</rich_text>
+    <rich_text foreground="#d4d4d4">() </rich_text>
+    <rich_text foreground="#569cd6">=&gt;</rich_text>
+    <rich_text foreground="#d4d4d4"> </rich_text>
+    <rich_text foreground="#dcdcaa">setCurrentTab</rich_text>
+    <rich_text foreground="#d4d4d4">(</rich_text>
+    <rich_text foreground="#b5cea8">1</rich_text>
+    <rich_text foreground="#d4d4d4">)</rich_text>
+    <rich_text foreground="#569cd6">}</rich_text>
+    <rich_text foreground="#cccccc"> </rich_text>
+    <rich_text foreground="#9cdcfe">style</rich_text>
+    <rich_text foreground="#d4d4d4">=</rich_text>
+    <rich_text foreground="#569cd6">{</rich_text>
+    <rich_text foreground="#d4d4d4">{</rich_text>
+    <rich_text foreground="#9cdcfe">color</rich_text>
+    <rich_text foreground="#d4d4d4">:</rich_text>
+    <rich_text foreground="#4fc1ff">currentTab</rich_text>
+    <rich_text foreground="#d4d4d4">==</rich_text>
+    <rich_text foreground="#b5cea8">1</rich_text>
+    <rich_text foreground="#d4d4d4">?</rich_text>
+    <rich_text foreground="#ce9178">"red"</rich_text>
+    <rich_text foreground="#d4d4d4">:</rich_text>
+    <rich_text foreground="#ce9178">"black"</rich_text>
+    <rich_text foreground="#d4d4d4">}</rich_text>
+    <rich_text foreground="#569cd6">}</rich_text>
+    <rich_text foreground="#808080">&gt;</rich_text>
+    <rich_text foreground="#cccccc">Todo 1</rich_text>
+    <rich_text foreground="#808080">&lt;/</rich_text>
+    <rich_text foreground="#569cd6">button</rich_text>
+    <rich_text foreground="#808080">&gt;</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cccccc">        </rich_text>
+    <rich_text foreground="#808080">&lt;</rich_text>
+    <rich_text foreground="#569cd6">button</rich_text>
+    <rich_text foreground="#cccccc"> </rich_text>
+    <rich_text foreground="#9cdcfe">onClick</rich_text>
+    <rich_text foreground="#d4d4d4">=</rich_text>
+    <rich_text foreground="#569cd6">{</rich_text>
+    <rich_text foreground="#d4d4d4">() </rich_text>
+    <rich_text foreground="#569cd6">=&gt;</rich_text>
+    <rich_text foreground="#d4d4d4"> </rich_text>
+    <rich_text foreground="#dcdcaa">setCurrentTab</rich_text>
+    <rich_text foreground="#d4d4d4">(</rich_text>
+    <rich_text foreground="#b5cea8">2</rich_text>
+    <rich_text foreground="#d4d4d4">)</rich_text>
+    <rich_text foreground="#569cd6">}</rich_text>
+    <rich_text foreground="#cccccc"> </rich_text>
+    <rich_text foreground="#9cdcfe">style</rich_text>
+    <rich_text foreground="#d4d4d4">=</rich_text>
+    <rich_text foreground="#569cd6">{</rich_text>
+    <rich_text foreground="#d4d4d4">{</rich_text>
+    <rich_text foreground="#9cdcfe">color</rich_text>
+    <rich_text foreground="#d4d4d4">:</rich_text>
+    <rich_text foreground="#4fc1ff">currentTab</rich_text>
+    <rich_text foreground="#d4d4d4">==</rich_text>
+    <rich_text foreground="#b5cea8">2</rich_text>
+    <rich_text foreground="#d4d4d4">?</rich_text>
+    <rich_text foreground="#ce9178">"red"</rich_text>
+    <rich_text foreground="#d4d4d4">:</rich_text>
+    <rich_text foreground="#ce9178">"black"</rich_text>
+    <rich_text foreground="#d4d4d4">}</rich_text>
+    <rich_text foreground="#569cd6">}</rich_text>
+    <rich_text foreground="#808080">&gt;</rich_text>
+    <rich_text foreground="#cccccc">Todo 2</rich_text>
+    <rich_text foreground="#808080">&lt;/</rich_text>
+    <rich_text foreground="#569cd6">button</rich_text>
+    <rich_text foreground="#808080">&gt;</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cccccc">        </rich_text>
+    <rich_text foreground="#808080">&lt;</rich_text>
+    <rich_text foreground="#569cd6">button</rich_text>
+    <rich_text foreground="#cccccc"> </rich_text>
+    <rich_text foreground="#9cdcfe">onClick</rich_text>
+    <rich_text foreground="#d4d4d4">=</rich_text>
+    <rich_text foreground="#569cd6">{</rich_text>
+    <rich_text foreground="#d4d4d4">() </rich_text>
+    <rich_text foreground="#569cd6">=&gt;</rich_text>
+    <rich_text foreground="#d4d4d4"> </rich_text>
+    <rich_text foreground="#dcdcaa">setCurrentTab</rich_text>
+    <rich_text foreground="#d4d4d4">(</rich_text>
+    <rich_text foreground="#b5cea8">3</rich_text>
+    <rich_text foreground="#d4d4d4">)</rich_text>
+    <rich_text foreground="#569cd6">}</rich_text>
+    <rich_text foreground="#cccccc"> </rich_text>
+    <rich_text foreground="#9cdcfe">style</rich_text>
+    <rich_text foreground="#d4d4d4">=</rich_text>
+    <rich_text foreground="#569cd6">{</rich_text>
+    <rich_text foreground="#d4d4d4">{</rich_text>
+    <rich_text foreground="#9cdcfe">color</rich_text>
+    <rich_text foreground="#d4d4d4">:</rich_text>
+    <rich_text foreground="#4fc1ff">currentTab</rich_text>
+    <rich_text foreground="#d4d4d4">==</rich_text>
+    <rich_text foreground="#b5cea8">3</rich_text>
+    <rich_text foreground="#d4d4d4">?</rich_text>
+    <rich_text foreground="#ce9178">"red"</rich_text>
+    <rich_text foreground="#d4d4d4">:</rich_text>
+    <rich_text foreground="#ce9178">"black"</rich_text>
+    <rich_text foreground="#d4d4d4">}</rich_text>
+    <rich_text foreground="#569cd6">}</rich_text>
+    <rich_text foreground="#808080">&gt;</rich_text>
+    <rich_text foreground="#cccccc">Todo 3</rich_text>
+    <rich_text foreground="#808080">&lt;/</rich_text>
+    <rich_text foreground="#569cd6">button</rich_text>
+    <rich_text foreground="#808080">&gt;</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cccccc">        </rich_text>
+    <rich_text foreground="#808080">&lt;</rich_text>
+    <rich_text foreground="#569cd6">button</rich_text>
+    <rich_text foreground="#cccccc"> </rich_text>
+    <rich_text foreground="#9cdcfe">onClick</rich_text>
+    <rich_text foreground="#d4d4d4">=</rich_text>
+    <rich_text foreground="#569cd6">{</rich_text>
+    <rich_text foreground="#d4d4d4">() </rich_text>
+    <rich_text foreground="#569cd6">=&gt;</rich_text>
+    <rich_text foreground="#d4d4d4"> </rich_text>
+    <rich_text foreground="#dcdcaa">setCurrentTab</rich_text>
+    <rich_text foreground="#d4d4d4">(</rich_text>
+    <rich_text foreground="#b5cea8">4</rich_text>
+    <rich_text foreground="#d4d4d4">)</rich_text>
+    <rich_text foreground="#569cd6">}</rich_text>
+    <rich_text foreground="#cccccc"> </rich_text>
+    <rich_text foreground="#9cdcfe">style</rich_text>
+    <rich_text foreground="#cccccc"> </rich_text>
+    <rich_text foreground="#d4d4d4">=</rich_text>
+    <rich_text foreground="#569cd6">{</rich_text>
+    <rich_text foreground="#d4d4d4">{ </rich_text>
+    <rich_text foreground="#9cdcfe">color</rich_text>
+    <rich_text foreground="#d4d4d4">:</rich_text>
+    <rich_text foreground="#4fc1ff">currentTab</rich_text>
+    <rich_text foreground="#d4d4d4">==</rich_text>
+    <rich_text foreground="#b5cea8">4</rich_text>
+    <rich_text foreground="#d4d4d4">?</rich_text>
+    <rich_text foreground="#ce9178">"red"</rich_text>
+    <rich_text foreground="#d4d4d4">:</rich_text>
+    <rich_text foreground="#ce9178">"black"</rich_text>
+    <rich_text foreground="#d4d4d4">}</rich_text>
+    <rich_text foreground="#569cd6">}</rich_text>
+    <rich_text foreground="#808080">&gt;</rich_text>
+    <rich_text foreground="#cccccc">Todo 4</rich_text>
+    <rich_text foreground="#808080">&lt;/</rich_text>
+    <rich_text foreground="#569cd6">button</rich_text>
+    <rich_text foreground="#808080">&gt;</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cccccc">    </rich_text>
+    <rich_text foreground="#808080">&lt;/</rich_text>
+    <rich_text foreground="#569cd6">div</rich_text>
+    <rich_text foreground="#808080">&gt;</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cccccc">    </rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cccccc">}</rich_text>
+    <rich_text>
+
+
+</rich_text>
+    <encoded_png char_offset="546" justification="left" link="" sha256sum="5c59b07e68499075d7b8989ced3e58b49e0d504477c631362841ec65ee007e4f"/>
+    <encoded_png char_offset="548" justification="left" link="" sha256sum="02b4077b26fb95e798870d5fadd852ee56a294b33b7e6e7c7254e0a0288c6c10"/>
+  </node>
+</cherrytree>

@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cherrytree>
-  <node name="Counter app in react" unique_id="3" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1728247601" ts_lastsave="1728247621">
-    <rich_text></rich_text>
-    <encoded_png char_offset="0" justification="left" link="" sha256sum="31b74a4e955765ff6ef8fc9de3cabe143086b677fe4b415549117b12f4a77bea"/>
+  <node name="Counter app in react" unique_id="3" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1728247601" ts_lastsave="1728247622">
+    <rich_text>Counter without React 
+
+
+
+
+</rich_text>
+    <encoded_png char_offset="23" justification="left" link="" sha256sum="31b74a4e955765ff6ef8fc9de3cabe143086b677fe4b415549117b12f4a77bea"/>
   </node>
 </cherrytree>

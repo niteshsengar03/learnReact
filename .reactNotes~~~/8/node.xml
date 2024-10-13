@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cherrytree>
-  <node name="app is unmounted stop the clock" unique_id="8" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1728375172" ts_lastsave="1728375564">
+  <node name="app is unmounted stop the clock" unique_id="8" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1728375172" ts_lastsave="1728376117">
     <rich_text foreground="#569cd6">function</rich_text>
     <rich_text foreground="#cccccc"> </rich_text>
     <rich_text foreground="#dcdcaa">Counter</rich_text>
@@ -170,6 +170,9 @@
 
 
 
-here setInterval clock will stop run when this component called Counter is unmounted</rich_text>
+here setInterval clock will stop running  when this component called Counter is unmounted
+
+</rich_text>
+    <encoded_png char_offset="809" justification="left" link="" sha256sum="af16bb974519c7bc8623d2579989a2bb5573d8c66b82a838b9aa7d2a2774a0ec"/>
   </node>
 </cherrytree>

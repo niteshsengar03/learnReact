@@ -1,8 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cherrytree>
-  <node name="conditional rendering" unique_id="6" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1728372227" ts_lastsave="1728372507">
+  <node name="conditional rendering" unique_id="6" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1728372227" ts_lastsave="1728796581">
+    <rich_text justification="left"></rich_text>
     <rich_text>
-if counterVissible is true render Counter component else hii there button</rich_text>
+if counterVissible is true render Counter component else hii there button
+
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text>
+if you want to use if else this is how you can use it
+
+
+to conditional render just cover the whole div
+in {} and write the condtion in territiary operator
+
+
+example-&gt;if a perticular prop is not passed then don't render anything, if passed render something
+if time prop is passed then render this else render nothing
+</rich_text>
+    <rich_text foreground="#569cd6">{</rich_text>
+    <rich_text foreground="#9cdcfe">time</rich_text>
+    <rich_text foreground="#d4d4d4">?</rich_text>
+    <rich_text foreground="#808080">&lt;</rich_text>
+    <rich_text foreground="#569cd6">div</rich_text>
+    <rich_text foreground="#d4d4d4"> </rich_text>
+    <rich_text foreground="#808080">&gt;&lt;</rich_text>
+    <rich_text foreground="#569cd6">div</rich_text>
+    <rich_text foreground="#808080">&gt;</rich_text>
+    <rich_text foreground="#569cd6">{</rich_text>
+    <rich_text foreground="#9cdcfe">time</rich_text>
+    <rich_text foreground="#569cd6">}</rich_text>
+    <rich_text foreground="#808080">&lt;/</rich_text>
+    <rich_text foreground="#569cd6">div</rich_text>
+    <rich_text foreground="#808080">&gt;&lt;</rich_text>
+    <rich_text foreground="#569cd6">img</rich_text>
+    <rich_text foreground="#d4d4d4"> </rich_text>
+    <rich_text foreground="#9cdcfe">src</rich_text>
+    <rich_text foreground="#d4d4d4">=</rich_text>
+    <rich_text foreground="#569cd6">{</rich_text>
+    <rich_text foreground="#ce9178">""</rich_text>
+    <rich_text foreground="#569cd6">}</rich_text>
+    <rich_text foreground="#d4d4d4"> </rich_text>
+    <rich_text foreground="#808080">&gt;&lt;/</rich_text>
+    <rich_text foreground="#569cd6">img</rich_text>
+    <rich_text foreground="#808080">&gt;&lt;/</rich_text>
+    <rich_text foreground="#569cd6">div</rich_text>
+    <rich_text foreground="#808080">&gt;</rich_text>
+    <rich_text foreground="#d4d4d4">:</rich_text>
+    <rich_text foreground="#569cd6">null}</rich_text>
+    <rich_text>
+
+
+
+ask the doubt after class regarding toggle using wihout Strictmode</rich_text>
     <encoded_png char_offset="0" justification="left" link="" sha256sum="7f39e884bb5405deccc5f4823f8229cc21934aa607badec5fe2fcf1e94c8e060"/>
+    <encoded_png char_offset="77" justification="left" link="" sha256sum="2abeba21bcfa7aca9ac58b935eb0aab449662fa6ffb6c4c925b2a3d3046b2712"/>
   </node>
 </cherrytree>

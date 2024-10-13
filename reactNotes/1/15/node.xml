@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="children" unique_id="15" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1728809010" ts_lastsave="1728811069">
+    <rich_text>
+i have created an generic Card component which defines the style of the card and now i can use it in any way
+
+all three are same card comp inner element is changed 
+
+Benefit is if i just change background from black to red in Card component
+ex-&gt;
+
+
+
+But it is tough to read so just change the name from innerContent to children
+and wrap like this
+
+it will work the same way
+
+in wrapper components whatever pass inside a component it comes as children prop</rich_text>
+    <encoded_png char_offset="0" justification="left" link="" sha256sum="085d27aef196b9afde29c4f188d2f71cbc58db0cb331675f8d617e75e6fbf017"/>
+    <encoded_png char_offset="111" justification="left" link="" sha256sum="ea2e98c2ac65440379fb1ae763bc4243bcd764a4fb998e62e08f8852c90ff837"/>
+    <encoded_png char_offset="248" justification="left" link="" sha256sum="c46445034a5e15d8d531d75628fb8841f81949a4a0649c9e004e227c1f713906"/>
+    <encoded_png char_offset="251" justification="left" link="" sha256sum="60b68b4aec4018784da64811e82af32ba287b1a8bcfca1cf8c95033f1d5c7d2a"/>
+    <encoded_png char_offset="351" justification="left" link="" sha256sum="d85becdec68a0543d09e0494fba5b05abc963dffeb2b776d96088b1815f838e5"/>
+  </node>
+</cherrytree>

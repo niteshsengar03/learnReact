@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cherrytree>
-  <node name="Counter app in react" unique_id="3" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1728247601" ts_lastsave="1728312265">
+  <node name="Counter app in react" unique_id="3" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1728247601" ts_lastsave="1728772320">
     <rich_text>Counter without React 
 </rich_text>
     <rich_text justification="left"></rich_text>
     <rich_text>
 
 in react you never need to do DOM manipulation
-
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text>
 
 
 </rich_text>

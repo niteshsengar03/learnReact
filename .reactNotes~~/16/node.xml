@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="key" unique_id="16" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1728811069" ts_lastsave="1728811313">
+    <rich_text>
+
+all good but getting warning in console
+
+In react when you are using list every element should have a unique key
+
+</rich_text>
+    <encoded_png char_offset="0" justification="left" link="" sha256sum="7be67d5d4801c9eeffc04c89e619a7f9f4766c9970df95744b162e360ea3991a"/>
+    <encoded_png char_offset="2" justification="left" link="" sha256sum="8420f7fda4dad99d3f37dc06e4c4bae137f4c40c4bc94fd4d1e36081cd6fca99"/>
+    <encoded_png char_offset="44" justification="left" link="" sha256sum="e4e30e40fd0627f37ea9b099137d0d7d7a53d975b25d2b69e28da036dd4c5bd0"/>
+    <encoded_png char_offset="118" justification="left" link="" sha256sum="baf1591e7ad5a70fa4f35f17b1726a2876cc13dc822976288d3ead7f59d40a19"/>
+  </node>
+</cherrytree>

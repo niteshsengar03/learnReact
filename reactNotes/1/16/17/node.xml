@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="Good interview question for keys" unique_id="17" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1728811531" ts_lastsave="1728811592">
+    <rich_text foreground="#cccccc">In React, keys are used to uniquely identify elements in a list. This helps React optimize the rendering process by efficiently updating and reordering elements. Here’s a concise explanation you can use in an interview:</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text foreground="#cccccc" weight="heavy">Why do we use keys in React?</rich_text>
+    <rich_text>
+1. </rich_text>
+    <rich_text weight="heavy">Unique Identification</rich_text>
+    <rich_text>: Keys help React identify which items have changed, been added, or removed.
+2. </rich_text>
+    <rich_text weight="heavy">Efficient Updates</rich_text>
+    <rich_text>: By using keys, React can match elements between renders and only update the changed elements, improving performance.
+3. </rich_text>
+    <rich_text weight="heavy">Avoiding Re-renders</rich_text>
+    <rich_text>: Without keys, React would re-render all elements in a list, which is inefficient.
+</rich_text>
+  </node>
+</cherrytree>
